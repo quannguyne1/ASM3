@@ -1,0 +1,96 @@
+@media (max-width: 600px) {
+  /* Xây dựng phần ảnh Banner */
+  .banner {
+    height: 250px;
+  }
+
+  .banner-title {
+    font-size: 20px;
+    top: 40%;
+  }
+  /* Xây dựng Navbar */
+  .topnav {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .topnav > * {
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+  }
+
+  #nav-info {
+    display: none;
+  }
+  /* Xây dựng Thông tin cá nhân */
+  .container-grid-ti {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 5px;
+  }
+
+  /* Xây dựng phần Thông tin nghề nghiệp */
+
+  .person-info {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 10px;
+  }
+
+  /* Phần Chứng chỉ - Giải thưởng */
+  .certificate-content {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .certificate {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin: 0;
+  }
+
+  .certificate-content img {
+    width: 100%; /* Đảm bảo ảnh không bị tràn */
+    height: auto; /* Giữ tỷ lệ ảnh */
+  }
+
+  .card {
+    flex-direction: column;
+    margin: 5px;
+  }
+
+  /* Xây dựng phần Dự án */
+  .project-container {
+    margin: 10px 20px;
+  }
+
+  .section-project-content {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .section-project-content .project {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .project-tittle {
+    font-size: 14px;
+  }
+
+  .sub-tittle {
+    font-size: 12px;
+  }
+
+  .project img {
+    width: 100%; /* Đảm bảo ảnh không bị tràn */
+    height: auto; /* Giữ tỷ lệ ảnh */
+  }
+
+  /* Footer Container */
+  .footer-content {
+    font-size: 16px;
+  }
+}
